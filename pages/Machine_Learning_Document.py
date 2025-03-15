@@ -28,7 +28,7 @@ st.code("""
 #load Dataset
 @st.cache_data
 def load_data():
-    file_path = 'C:/Users/Acer/Desktop/IS_Project/factype2.xlsx'
+    file_path = 'factype2.xlsx'
     return pd.read_excel(file_path)
 
 df = load_data()
